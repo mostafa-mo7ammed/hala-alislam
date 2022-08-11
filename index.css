@@ -1,0 +1,125 @@
+* {
+  animation-name: intro;
+  animation-duration: 2s;
+  animation-direction: initial;
+  animation-timing-function: ease;
+  overflow-x: hidden;
+}
+
+@keyframes intro {
+  0% {
+    transform: translate(20%, 0);
+    opacity: 0%;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 100%;
+  }
+}
+
+body {
+  padding: 5px;
+  background-color: #E1FFEB;
+  direction: rtl;
+  color: gray;
+  font-size: 15px;
+  justify-content: right;
+  font-family: cairo;
+}
+
+@font-face {
+  font-family: cairo;
+  src: url(cairo.ttf);
+}
+
+@font-face {
+  font-family: cairo-l;
+  src: url(Cairo-Light.ttf);
+}
+
+hr {
+  background-color: seagreen;
+  border: seagreen solid .5px;
+}
+h2 {
+  padding-right: 10px;
+  border-right: solid seagreen 6px;
+}
+
+.header .contener .logo {
+  width: 150px;
+}
+
+select {
+  padding: 5px;
+  height: 40px;
+  background-color: seagreen;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-family: cairo;
+}
+
+select option {
+  background-color: lightgreen;
+}
+
+.intro {
+  text-align: center;
+}
+.clear{
+  clear: both;
+}
+
+.topic .header {
+  padding-right: 10px;
+  border-right: solid seagreen 6px;
+}
+
+.topic .def {
+  font-size: 20px;
+  font-family: cairo;
+  font-weight: 200;
+}
+
+
+
+.option {
+  background-color: seagreen;
+  border-radius: 20px;
+  justify-self: center;
+  text-align: center;
+  float: right;
+  padding-left: 10%;
+  overflow: hidden;
+}
+
+.option .iteams {
+  float: right;
+  padding: 15px 0;
+}
+
+.option .iteams a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding-right:15px;
+  padding-left: 15px;
+  border-left: white solid .5px;
+}
+
+.option #iteams-who {
+  padding-left: 0;
+  border-left: none;
+}
+
+.hr {
+  background-color: white;
+  border: solid white 1px;
+}
+
+footer {
+  text-align: center;
+}

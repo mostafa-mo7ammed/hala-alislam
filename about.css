@@ -1,0 +1,13 @@
+table{
+  display: block;
+  border: solid 1px seagreen;
+  text-align: center;
+}
+td{
+  border-left: solid 1px seagreen;
+  border-bottom: solid 1px seagreen;
+  width: 50vw;
+}
+.clear {
+  clear: both;
+}
